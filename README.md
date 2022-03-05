@@ -55,6 +55,12 @@ Enumerates Windows stuff running on a machine
 Brute forces active directory
 
 
+# Wi-Fi Hacking
+
+## Get Hash from capture
+
+https://www.onlinehashcrack.com/tools-cap-to-hash-converter.php
+
 # Steganography
 
 ## Stegoveritas
