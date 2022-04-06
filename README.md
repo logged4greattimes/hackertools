@@ -26,12 +26,47 @@ db: defines breakpoing
 
 dc: Runs the program untill next breakpoint
 
+## JD-GUI
+
+Allows you to see the Java Source Code, from .class file
+
+## Java Deobfuscator
+
+Can deobfuscate a Java Archive File aka .jar
+
+Usage, change the detect.yml to: 
+`input: <file_name>.jar
+detect: true`
+
+Usage:
+`java -jar deobfuscator.jar --config detect.yml`
+
+## Floss
+
+Deobfucates strings, its like the command strings, but for obfuscated strings.
+
+## ILSpy
+
+Reverse Engineer for .NET applications
+
+## dotPeek
+
+Reverse Engineer for .NET applications
+
+## MobSF
+
+Application that analyses a Android APK in a automated manner
+
+## Pithus
+
+Website that analyses a Android APK in a automated manner
+
+
 # Networking
 
 ## Nmap
 
 Scans ports for a IP address.
-
 
 # Web
 
@@ -43,6 +78,14 @@ Enumerates directories for a website
 
 Like gobuster but lists vulnerabilities and other cool stuff.
 
+## Wfuzz
+
+Web Fuzzer, brute force for web applications
+
+Usage:
+`wfuzz -c -z file,<wordlist> http://www.example.site/api/FUZZ`
+
+Being FUZZ the place, where the tool places the contents of the wordlist
 
 # Windows
 
@@ -54,12 +97,27 @@ Enumerates Windows stuff running on a machine
 
 Brute forces active directory
 
+## SMBMap
+
+Detects and exploits Samba vulnerabilities
+
+## Impacket
+
+Series of scripts that gets you inside a Windows Machine
+
 
 # Wi-Fi Hacking
 
 ## Get Hash from capture
 
 https://www.onlinehashcrack.com/tools-cap-to-hash-converter.php
+
+
+# SQL Injection
+
+## SQLMap 
+
+Detects and exploits SQL Injection vulnerabilities
 
 # Steganography
 
@@ -113,3 +171,19 @@ Usage:
 ## Sonic Visualizer 
 
 See and edit sound waves of audio files
+
+# OSInt
+
+## Sherlock
+
+OSInt tool that searches for usernames on the open internet
+
+## WhatsMyName
+
+Another tool that searches for usernames on the open internet
+
+## Wiggle
+
+Website that contains a lot of public Wifi and their locations
+
+
