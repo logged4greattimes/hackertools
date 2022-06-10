@@ -172,6 +172,10 @@ Usage:
 
 See and edit sound waves of audio files
 
+## Academo - Spectrum Analyzer
+Great to find hidden message in the audio waves
+https://academo.org/demos/spectrum-analyzer/
+
 # OSInt
 
 ## Sherlock
