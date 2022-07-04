@@ -1,6 +1,12 @@
 # OG Hacker Tools
 This repository contains tools used for various types of hacking, and basic information about their usage.
 
+# Windows
+
+## Detect it Easy
+
+Tool to detect the type of a program
+
 # Reverse Engineering
 
 ## Radare2 aka R2
