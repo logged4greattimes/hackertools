@@ -1,5 +1,9 @@
 # Windows
 
+## MobaDiff
+
+Compare multiple files/directories
+
 ## Detect it Easy
 
 Tool to detect the type of a program
