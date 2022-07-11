@@ -7,6 +7,8 @@ Default Passowrds - https://default-password.info/
 
 https://datarecovery.com/rd/default-passwords/
 
+### Cewl - Generate custom wordlists
+
 ## Upgrade Shell
 
 ### Option 1
