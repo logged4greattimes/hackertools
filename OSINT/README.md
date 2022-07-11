@@ -12,3 +12,7 @@ Another tool that searches for usernames on the open internet
 
 Website that contains a lot of public Wifi and their locations
 
+## Recon-ng
+
+Tool to automate OSINT work
+
