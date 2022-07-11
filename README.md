@@ -15,3 +15,8 @@ stty raw -echo; fg
 rlwrap nc -lvnp 9001
 stty raw -echo; fg
 ```
+
+
+## Red Team Toolkit
+
+https://github.com/infosecn1nja/Red-Teaming-Toolkit#Payload%20Development
