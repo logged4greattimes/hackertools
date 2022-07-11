@@ -23,3 +23,7 @@ Detects and exploits Samba vulnerabilities
 ## Impacket
 
 Series of scripts that gets you inside a Windows Machine
+
+## Various Techniques to send malware to Windows Machines
+
+https://tryhackme.com/room/weaponization
