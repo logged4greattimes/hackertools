@@ -14,3 +14,9 @@ Generate custom wordlists
 
 Generate possible usernames for user - https://github.com/shroudri/username_generator
 
+# RDPassSpray
+
+Spray password on RDP
+
+https://github.com/xFreed0m/RDPassSpray
+
