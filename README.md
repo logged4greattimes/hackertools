@@ -1,6 +1,12 @@
 # OG Hacker Tools
 This repository contains tools used for various types of hacking, and basic information about their usage.
 
+## Password Cracking/Guessing
+
+Default Passowrds - https://default-password.info/
+
+https://datarecovery.com/rd/default-passwords/
+
 ## Upgrade Shell
 
 ### Option 1
