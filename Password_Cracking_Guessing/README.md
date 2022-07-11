@@ -28,3 +28,9 @@ Spray password on RDP
 
 https://github.com/xFreed0m/RDPassSpray
 
+# OWA Password Spray Toolkit
+
+Password Spray for Outlook Web Access
+
+https://github.com/byt3bl33d3r/SprayingToolkit.git
+
