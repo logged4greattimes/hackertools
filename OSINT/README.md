@@ -16,3 +16,8 @@ Website that contains a lot of public Wifi and their locations
 
 Tool to automate OSINT work
 
+Usage help on:
+https://tryhackme.com/room/redteamrecon
+
+
+
