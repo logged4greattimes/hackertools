@@ -1,22 +1,6 @@
 # OG Hacker Tools
 This repository contains tools used for various types of hacking, and basic information about their usage.
 
-## Password Cracking/Guessing
-
-Default Passowrds - https://default-password.info/
-
-https://datarecovery.com/rd/default-passwords/
-
-### Cewl
-
-Generate custom wordlists
-
-### Username Generator
-
-Generate possible usernames for user - https://github.com/shroudri/username_generator
-
-
-
 ## Upgrade Shell
 
 ### Option 1
