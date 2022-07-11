@@ -22,4 +22,9 @@ Generate custom wordlists from 0
 
 Generates custom wordlists from known info about target - https://github.com/Mebus/cupp
 
+# RDPassSpray
+
+Spray password on RDP
+
+https://github.com/xFreed0m/RDPassSpray
 
