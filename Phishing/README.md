@@ -34,6 +34,8 @@ https://app.any.run/
 
 https://www.hybrid-analysis.com/
 
-# View SPF Rules of Domain
+## View SPF/DMARC Rules of Domain
 
-https://dmarcian.com/spf-survey/
+SPF - https://dmarcian.com/spf-survey/
+
+DMARC - https://dmarcian.com/domain-checker/
