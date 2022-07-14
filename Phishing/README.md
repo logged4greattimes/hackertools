@@ -20,6 +20,10 @@ URL Scan - https://urlscan.io/
 
 TALOS Reputation Center - https://talosintelligence.com/reputation
 
+## URL Extractor
+
+https://www.convertcsv.com/url-extractor.htm
+
 ## Link Expander
 
 https://linkexpander.com/
