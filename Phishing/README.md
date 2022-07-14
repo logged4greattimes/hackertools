@@ -27,3 +27,9 @@ https://www.convertcsv.com/url-extractor.htm
 ## Link Expander
 
 https://linkexpander.com/
+
+## Malware Sandbox
+
+https://app.any.run/
+
+https://www.hybrid-analysis.com/
