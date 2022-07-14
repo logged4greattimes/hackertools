@@ -16,6 +16,10 @@ rlwrap nc -lvnp 9001
 stty raw -echo; fg
 ```
 
+## Static Binaries
+
+https://github.com/andrew-d/static-binaries
+
 
 ## Red Team Toolkit
 
