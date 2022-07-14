@@ -33,3 +33,7 @@ https://linkexpander.com/
 https://app.any.run/
 
 https://www.hybrid-analysis.com/
+
+# View SPF Rules of Domain
+
+https://dmarcian.com/spf-survey/
