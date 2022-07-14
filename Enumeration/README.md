@@ -22,3 +22,9 @@ Usage:
 `wfuzz -c -z file,<wordlist> http://www.example.site/api/FUZZ`
 
 Being FUZZ the place, where the tool places the contents of the wordlist
+
+# SMB
+
+## Enum4Linux
+
+https://github.com/CiscoCXSecurity/enum4linux
