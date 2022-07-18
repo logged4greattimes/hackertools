@@ -1,5 +1,9 @@
 # Windows
 
+## Evil-WinRM
+
+Ultimate shell
+
 ## MobaDiff
 
 Compare multiple files/directories
