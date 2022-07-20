@@ -26,6 +26,10 @@ PECheck - See info on PEHeader
 
 PETree - See info on PeHeader in a GUI
 
+Cuckoo Sandbox - https://cuckoosandbox.org/ 
+
+REMnux - Distro for analysis of malware
+
 
 ## Red Team Toolkit
 
