@@ -20,6 +20,12 @@ stty raw -echo; fg
 
 https://github.com/andrew-d/static-binaries
 
+## Malware Analysis
+
+PECheck - See info on PEHeader
+
+PETree - See info on PeHeader in a GUI
+
 
 ## Red Team Toolkit
 
