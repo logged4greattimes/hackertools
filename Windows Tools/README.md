@@ -33,6 +33,17 @@ Series of scripts that gets you inside a Windows Machine
 NetCat for Powershell - 
 https://github.com/besimorhino/powercat
 
+## Shortcut Modification
+
+https://github.com/theonlykernel/atomic-red-team/blob/master/atomics/T1023/T1023.md
+
+## Powershell scripts without powershell - PowerlessShell
+
+https://github.com/Mr-Un1k0d3r/PowerLessShell
+
+
+
+
 
 ## Various Techniques to send malware to Windows Machines
 
