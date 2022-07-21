@@ -20,17 +20,6 @@ stty raw -echo; fg
 
 https://github.com/andrew-d/static-binaries
 
-## Enumerate Docker Repository
-
-GET Requests
-
-```
-http://WEBSITENAME.COM:5000/v2/_catalog
-http://WEBSITENAME.COM:5000/v2/REPOSITORY/NAME/tags/list
-http://WEBSITENAME.COM:5000/v2/REPOSITORY/NAME/manifests/TAG_NAME
-```
-
-
 ## Malware Analysis
 
 PECheck - See info on PEHeader
